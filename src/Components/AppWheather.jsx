@@ -4,6 +4,8 @@ import WheatherInfo from "./WheatherInfo"
 import WheatherDetails from "./WheatherDetails"
 import useWheather from "../Hook/UseWheather"
 
+
+//COMPONENT APP WEATHER
 const AppWheather = () => {
     const {notFound, infoWheather, city, count} = useWheather();
     
